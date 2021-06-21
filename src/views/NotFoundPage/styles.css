@@ -1,0 +1,23 @@
+.not-found-page {
+  background: linear-gradient(0.25turn, #aac0e0, #e3caea, #f6f871);
+  height: 100vh;
+}
+
+.not-found-content { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-content img {
+  width: 30%;
+}
+
+.not-found-content p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #c290cc;
+}

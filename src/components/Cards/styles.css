@@ -1,0 +1,55 @@
+.parent {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  gap: 25px
+}
+
+.card {
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: solid 2px #606060
+}
+
+.card:hover {
+  filter: grayscale(0%);
+  border: solid 2px #CBD736;
+}
+
+.card:active {
+  border: solid 2px #CBD736;
+}
+
+.card-dead-char {
+  filter: grayscale(100%);
+}
+
+.container {
+  background: rgba(0, 0, 0, .5);
+  color: #fdfdfd;
+  padding: .6rem;
+  text-align: left;
+  width: 200px;
+  height: 30px;
+  text-overflow: ellipsis;
+}
+
+.container h4 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin: 0;
+  width: 100%;
+}
+
+.container p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0
+}
