@@ -17,7 +17,7 @@ const CharacterModal: React.FC<Props> = ({ id, details, onClose }) => {
                     ? " He"
                     : " She"
                 }
-                {details.status === "Alive" && "Dead"
+                {details.status === "Alive" || "Dead"
                   ? details.status === "Alive"
                     ? " is alive and well. "
                     : " is dead. "
@@ -79,7 +79,7 @@ const CharacterModal: React.FC<Props> = ({ id, details, onClose }) => {
   )
 
   return (
-    <div id={id} className="detail-modal" onClick={() => {}}>
+    <div id={id} className="detail-modal">
       <div
         className="detail-modal-image"
         style={{ backgroundImage: `url('${details.image}')` }}

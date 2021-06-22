@@ -21,3 +21,13 @@
   text-align: center;
   color: #c290cc;
 }
+
+@media screen and (max-width: 1023px) {
+  .not-found-page {
+    display: flex;
+  }
+
+  .not-found-content img {
+    width: 50%;
+  }
+}
