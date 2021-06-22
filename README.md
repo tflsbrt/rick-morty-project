@@ -11,6 +11,9 @@
 
 <p align="center">O projeto permite a busca por personagens do desenho animado Rick & Morty.</p>
 
+### Link da Aplicação
+--> A aplicação está disponível online em: <https://rick-morty-project.herokuapp.com>
+
 ### Rodando a aplicação localmente
 ```bash
 # Clone este repositório
@@ -41,6 +44,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+- O projeto possui integração com a plataforma Heroku para deploy automático através dos commits realizados nas branchs de develop e main;
 
 ### Autora
 ---
