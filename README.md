@@ -46,7 +46,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://www.linkedin.com/in/thaisfelisberto/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/tflsbrt" width="100px;" alt=""/>
  <br />
- <sub><b>Thaís Felisberto</b></sub></a> <a href="https://www.linkedin.com/in/thaisfelisberto/" title="Linkedin">🚀</a>
+ <sub><b>Thaís Felisberto</b></sub></a> <a href="https://www.linkedin.com/in/thaisfelisberto/" title="Linkedin">🐝</a>
 
 
 Feito com ❤️ por Thaís Felisberto 👋🏽 Entre em contato!
