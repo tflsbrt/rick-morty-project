@@ -23,7 +23,9 @@ const Cards: React.FC<Props> = ({ characters }) => {
       {characters.map((person: ICharacter, index: any) => (
         <div
           className={`card ${
-            person.status === "Alive" ? "" : "card-dead-char"
+            person.status === "Alive" && "Dead" ? 
+            person.status === "Alive" ? "" : "card-dead-char" 
+            : ""
           }`}
           style={{ background: `url(${person.image}) center / cover no-repeat`}}
           key={person.name}

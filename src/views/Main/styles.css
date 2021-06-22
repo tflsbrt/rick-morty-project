@@ -21,3 +21,21 @@
   justify-content: center;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 480px) {
+  .home-logo-img {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .home-logo-img {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+  .home-logo-img {
+    width: 85%;
+  }
+} 
