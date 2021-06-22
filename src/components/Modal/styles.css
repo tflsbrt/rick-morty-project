@@ -131,7 +131,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 100%;
+    height: 95%;
     position: fixed;
     top: 20px;
     left: 17px;
@@ -159,15 +159,38 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 5%;
-    padding-top: 10%;
   }
 
-  .detail-modal-info-about {
-    margin-top: 10%;
+  .detail-modal-info-about p {
+    font-size: .8rem;
+  }
+  
+  .detail-modal-info-origin span {
+    font-size: .8rem;
+  }
+
+  .detail-modal-info-location span {
+    font-size: .8rem;
+  }
+  
+  .planet-name {
+    font-size: 1rem;
+  }
+  
+  .planet-dimension {
+    font-size: .9rem;
+  }
+
+  .planet-name p {
+    font-size: 1rem;
+  }
+  
+  .planet-dimension p {
+    font-size: .9rem;
   }
 
   #residents {
-    margin: 10px 0;
+    margin: 0;
   }
 }
 
@@ -176,7 +199,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 100%;
+    height: 95%;
     position: fixed;
     top: 20px;
     left: 35px;
@@ -208,6 +231,6 @@
   }
 
   #residents {
-    margin: 10px 0;
+    margin: 0;
   }
 }

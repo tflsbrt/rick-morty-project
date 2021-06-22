@@ -1,0 +1,42 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    list-style: none;
+    width: 95%;
+    justify-content: center;
+}
+
+.pagination li + li {
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.pagination-active {
+    background-color: #c1d642;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    width: 30px;
+}
+
+.normal-pagination {
+    background-color: #7740be;
+    border: none;
+    border-radius: 15px;
+    padding: 5px ;
+    width: 30px;
+}
+
+.pagination-active:focus {
+    outline: none;
+    background-color: #c1d642;
+}
+
+@media screen and (max-width: 1023px) {  
+    .pagination {
+        width: auto;
+        margin-left: -45px;
+    }  
+}

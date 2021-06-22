@@ -17,7 +17,7 @@ const CharacterModal: React.FC<Props> = ({ id, details, onClose }) => {
                     ? " He"
                     : " She"
                 }
-                {details.status === "Alive" && "Dead"
+                {details.status === "Alive" || "Dead"
                   ? details.status === "Alive"
                     ? " is alive and well. "
                     : " is dead. "
@@ -56,7 +56,7 @@ const CharacterModal: React.FC<Props> = ({ id, details, onClose }) => {
   const LocationComponent = () => ( 
     <div className="detail-modal-info-location">
       <h3 className="detail-modal-info-title">LOCATION</h3>
-      <span>
+      <span className="">
         {details.location != null
           ? details.location.name === "unknown"
             ? "Unknown planet"
@@ -79,7 +79,7 @@ const CharacterModal: React.FC<Props> = ({ id, details, onClose }) => {
   )
 
   return (
-    <div id={id} className="detail-modal" onClick={() => {}}>
+    <div id={id} className="detail-modal">
       <div
         className="detail-modal-image"
         style={{ backgroundImage: `url('${details.image}')` }}
