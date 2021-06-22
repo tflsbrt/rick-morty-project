@@ -1,0 +1,112 @@
+.detail-modal {
+  width: 75%;
+  height: 80%;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.detail-modal-image {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+}
+
+.detail-modal-image button{
+  width: 15%;
+  height: 6%;
+  cursor: pointer;
+  margin: 4%;
+  border: 2px solid white;
+  color: rgb(255, 253, 253);
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.detail-modal-image-info {
+  background-color: rgba(0, 0, 0, .6);
+  height: 10%;
+  width: 100%;
+  padding:3%;
+  border-bottom-left-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.detail-modal-image-info h3{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+
+.detail-modal-image-info p{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.detail-modal-info {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  justify-content: space-around;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.detail-modal-info-about {
+  margin-bottom: 10%;
+}
+
+.detail-modal-info-about p{
+  color: white;
+  font-size: .9rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.detail-modal-info-origin {
+  margin-bottom: 15%;
+  color: white;
+  font-weight: 400;
+}
+
+.detail-modal-info-origin span{
+  color: #8C8C8C;
+  font-family: 'Nunito', sans-serif;
+}
+
+.planet-name{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+}
+
+.planet-dimension{
+  color: #D3D3D3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+}
+
+.detail-modal-info-location span{
+  color: #8C8C8C;
+  font-family: 'Nunito', sans-serif;
+}
+
+.detail-modal-info-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: #CBD736;
+}

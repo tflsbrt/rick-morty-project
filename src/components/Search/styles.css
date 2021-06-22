@@ -1,0 +1,43 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-layout {
+  background: transparent;
+  border: solid 2px white;
+  border-radius: 7px;
+  height: 30px;
+  color: white;
+  outline: none;
+}
+
+.search-font {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 14px
+}
+
+.search input {
+  width: 180px;
+  padding-left: 10px;
+}
+
+.search input::placeholder {
+  color: white;
+}
+
+.search button {
+  width: 70px;
+  height: 36px;
+  margin-left: 10px;
+}
+
+.search input:hover {
+  border: solid 2px #7ef946;
+}
+
+.search button:hover {
+  border: solid 2px #7ef946;
+}
