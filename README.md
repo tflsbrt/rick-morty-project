@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="#">
+    <img src="./src/assets/imgs/rick_morty_logo.png" height="150" width="175" alt="Unform" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Rick & Morty Project</h1>
 
-## Available Scripts
+## Descrição do Projeto
+<p align="center">Aplicativo construído em React.js com TypeScript consumindo API GraphQL com axios.</p>
 
-In the project directory, you can run:
+<p align="center">O projeto permite a busca por personagens do desenho animado Rick & Morty.</p>
 
-### `yarn start`
+### Rodando a Aplicação Localmente
+```bash
+# Clone este repositório
+$ git clone <https://github.com/tflsbrt/rick-morty-project>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd rick-morty-project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Instale as dependências
+$ npm install
 
-### `yarn test`
+# Execute a aplicação 
+$ npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
-### `yarn build`
+### 🛠 Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Autora
+---
 
-### `yarn eject`
+<a href="https://www.linkedin.com/in/thaisfelisberto/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/tflsbrt" width="100px;" alt=""/>
+ <br />
+ <sub><b>Thaís Felisberto</b></sub></a> <a href="https://www.linkedin.com/in/thaisfelisberto/" title="Linkedin">🚀</a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feito com ❤️ por Thaís Felisberto 👋🏽 Entre em contato!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ [![Linkedin Badge](https://img.shields.io/badge/-Thais-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaisfelisberto/)](https://www.linkedin.com/in/thaisfelisberto/) 
+[![Gmail Badge](https://img.shields.io/badge/-tflsbrt@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tflsbrt@gmail.com)](mailto:tflsbrt@gmail.com)
