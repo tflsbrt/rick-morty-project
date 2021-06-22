@@ -168,6 +168,10 @@
   .detail-modal-info-origin span {
     font-size: .8rem;
   }
+
+  .detail-modal-info-location span {
+    font-size: .8rem;
+  }
   
   .planet-name {
     font-size: 1rem;

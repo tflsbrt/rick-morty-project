@@ -56,7 +56,7 @@ const CharacterModal: React.FC<Props> = ({ id, details, onClose }) => {
   const LocationComponent = () => ( 
     <div className="detail-modal-info-location">
       <h3 className="detail-modal-info-title">LOCATION</h3>
-      <span>
+      <span className="">
         {details.location != null
           ? details.location.name === "unknown"
             ? "Unknown planet"
