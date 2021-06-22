@@ -177,6 +177,14 @@
     font-size: .9rem;
   }
 
+  .planet-name p {
+    font-size: 1rem;
+  }
+  
+  .planet-dimension p {
+    font-size: .9rem;
+  }
+
   #residents {
     margin: 0;
   }
