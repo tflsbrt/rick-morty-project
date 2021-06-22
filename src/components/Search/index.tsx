@@ -22,6 +22,7 @@ const Search: React.FC<Props> = ({ onSubmit, search }) => {
     <div className="search">
       <input
         type="text"
+        data-testid="input"
         className="search-layout search-font"
         placeholder="Search characters"
         value={searchInput}
@@ -29,7 +30,10 @@ const Search: React.FC<Props> = ({ onSubmit, search }) => {
           setSearchInput(event.target.value);
         }}
       />
-      <button className="search-layout search-font" onClick={handleSubmit}>
+      <button className="search-layout search-font" 
+      data-testid="button" 
+      onClick={handleSubmit}
+      >
         Search
       </button>
     </div>
