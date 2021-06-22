@@ -31,7 +31,9 @@ $ npm start
 $ npm run test
 
 ```
-
+### 📓 O que você encontra no projeto: 
+- Homepage para buscas dos personagens;
+- Página 404 para redirecionamentos não encontrados;
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:

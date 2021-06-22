@@ -3,13 +3,13 @@
   height: 100vh;
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .8);
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .loading-content img{
   border-radius: 10px;
+  border: solid 2px #606060
 }

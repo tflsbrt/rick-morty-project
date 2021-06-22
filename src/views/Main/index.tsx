@@ -50,7 +50,7 @@ const Main = () => {
           search={(value) => setSearch(value)}
         />
       </div>
-      <div className="character-component">
+      <div className="character-component" data-testid="character-component">
         {isCharactersListed && <CharacterCards characters={characters} />}
       </div>
       {isLoading && <Loading />}
