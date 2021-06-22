@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img src="./src/assets/imgs/rick_morty_logo.png" height="150" width="175" alt="Unform" />
+    <img src="./src/assets/imgs/rick_morty_logo.png" width="50%" alt="rick & morty logo" />
   </a>
 </p>
 
@@ -11,7 +11,7 @@
 
 <p align="center">O projeto permite a busca por personagens do desenho animado Rick & Morty.</p>
 
-### Rodando a Aplicação Localmente
+### Rodando a aplicação localmente
 ```bash
 # Clone este repositório
 $ git clone <https://github.com/tflsbrt/rick-morty-project>
@@ -26,6 +26,10 @@ $ npm install
 $ npm start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+
+# Inicia o executor de teste no modo de observação interativo.
+$ npm run test
+
 ```
 
 ### 🛠 Tecnologias
