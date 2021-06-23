@@ -9,7 +9,18 @@
   justify-content: center;
 }
 
+.loading-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .loading-content img{
   border-radius: 10px;
   border: solid 2px #606060
+}
+
+.loading-spinning {
+  margin-top: 20px;
+  width: 20%;
+  align-self: center;
 }

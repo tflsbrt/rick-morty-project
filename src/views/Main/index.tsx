@@ -22,7 +22,7 @@ const Main = () => {
   const [info, setInfo] = useState<any>({} as IInfo)
 
   useEffect(() => {
-    if(offset > 1) getCharacters() 
+    if(offset >= 1) getCharacters() 
   }, [offset])
 
   const getCharacters = async () => {
@@ -40,6 +40,7 @@ const Main = () => {
       }
     } catch (err) {
       console.log(err);
+      setOffset(1)
       return alert("An error ocurred while processing the search. Please, try again");
     } finally {
       setIsLoading(false);
@@ -65,7 +66,7 @@ const Main = () => {
       {isCharactersListed &&
         <Pagination
           limit={1}
-          total={671}
+          pages={info.pages}
           offset={offset}
           setOffset={(value) => setOffset(value)}
         />    
