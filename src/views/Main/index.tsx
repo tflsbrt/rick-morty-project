@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import Search from "../../components/Search";
 import CharacterCards from "../../components/Cards";
 import Loading from "../../components/Loading";
@@ -36,12 +39,12 @@ const Main = () => {
         setIsCharactersListed(true);
         setInfo(response?.data.characters?.info)
       } else {
-        return alert("There are no characters!");
+        return toast.warn('There are no characters!');
       }
     } catch (err) {
       console.log(err);
       setOffset(1)
-      return alert("An error ocurred while processing the search. Please, try again");
+      return toast.warn('An error ocurred while processing the search. Please, try again!');
     } finally {
       setIsLoading(false);
     }
@@ -72,6 +75,7 @@ const Main = () => {
         />    
       }
       {isLoading && <Loading />}
+      <ToastContainer />
     </main>
   );
 };
