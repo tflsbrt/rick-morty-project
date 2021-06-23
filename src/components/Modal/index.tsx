@@ -13,15 +13,11 @@ const CharacterModal: React.FC<Props> = ({ id, details, onClose }) => {
             <h3 className="detail-modal-info-title">ABOUT</h3>
             <p>
                 {details.name} is a {details.gender.toLowerCase()} {details.species.toLowerCase()}.
-                { details.gender === "Male"
-                    ? " He"
-                    : " She"
-                }
-                {details.status === "Alive" || "Dead"
+                {details.status === "Alive" && "Dead"
                   ? details.status === "Alive"
-                    ? " is alive and well. "
-                    : " is dead. "
-                  : " It can’t be told if he is alive or dead. "
+                    ? " Is alive and well. "
+                    : " Is dead. "
+                  : " It can’t be told if it's alive or dead. "
                 }
             Last seen in {details.episode[details.episode.length - 1].air_date}.
             </p>
