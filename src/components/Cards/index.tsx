@@ -28,7 +28,7 @@ const Cards: React.FC<Props> = ({ characters }) => {
             : ""
           }`}
           style={{ background: `url(${person.image}) center / cover no-repeat`}}
-          key={person.name}
+          key={person.id}
           onClick={() => handleOpenCharacterDetailsModal(person)}
         >
           <div className="container">
